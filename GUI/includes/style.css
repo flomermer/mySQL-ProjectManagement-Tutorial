@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+main,section,article{
+    display:block;
+}
+body{
+    direction:rtl;
+}
+main{margin:20px;}
+table{direction:rtl;}
+table caption{direction:rtl;text-align:center;font-size:14px; font-weight:bold;}
+input.ltr{text-align:left;direction:ltr;}
+
+.tableDB tr{
+    cursor:pointer;
+}
+.tableDB > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.toggler{display:none;}
+.col-notHover{background:white;}
+#tableRankProjects tbody tr:hover{
+    background: white;
+}
+.trChecked{background-color:#eee;}
